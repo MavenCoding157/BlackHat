@@ -6,7 +6,7 @@
  
 BlackHat is a basic project made to create semi-Harmful and Harmful viruses. More updates coming soon.
 
-![balckhat](https://github.com/MavenCoding157/BlackHat/assets/117538886/382ded75-54f2-4a34-8728-c42185dae69b)
+![Screenshot 2023-05-28 191806](https://github.com/MavenCoding157/BlackHat/assets/117538886/19b94eb1-8c76-4c19-a8ba-fcce769ff7ce)
 
 # **LEGAL NOTICE**
 
