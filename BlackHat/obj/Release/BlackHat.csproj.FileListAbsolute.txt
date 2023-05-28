@@ -1,0 +1,11 @@
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\bin\Release\BlackHat.exe.config
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\bin\Release\BlackHat.exe
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\bin\Release\BlackHat.pdb
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.BlackHat.resources
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.Properties.Resources.resources
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.exe
+C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Release\BlackHat.pdb
