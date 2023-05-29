@@ -9,3 +9,14 @@ C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.Generat
 C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Debug\BlackHat.exe
 C:\Users\PC\Desktop\BlackHat\BlackHat\BlackHat\obj\Debug\BlackHat.pdb
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\bin\Debug\BlackHat.exe.config
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\bin\Debug\BlackHat.exe
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\bin\Debug\BlackHat.pdb
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.BlackHat.resources
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.Properties.Resources.resources
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.exe
+C:\Users\PC\Desktop\BlackHat-Git\BlackHat\BlackHat\obj\Debug\BlackHat.pdb
