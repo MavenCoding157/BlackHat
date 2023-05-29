@@ -21,22 +21,36 @@ To use this first go into to vs2022 (or vs2019, etc) and compile as debug or rel
 # **FEATURES**
 
 • Task Killer
+
 • Shutdown Windows
+
 • Kill computer
+
 • Open Applications
+
 • File Deleter
+
 • Password Changer
+
 • Build Options (BAT Only atm)
+
 • Crash PC
+
 • Swap Mouse Buttons
+
 • Custom BAT Code
+
 
 # **TODO**
 
 • Make it build to an exe
+
 • Fix message box pop-up
+
 • Add more options
+
 • Make it so a user can have more than two options checked
+
 
 # **WARNING**
 
